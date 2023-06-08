@@ -43,6 +43,7 @@ const entityName: {
   gitlab: 'repo',
   'azure-repos': 'repo',
   'bitbucket-server': 'repo',
+  ecr: 'images',
 };
 
 export async function createListImported(

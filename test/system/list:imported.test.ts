@@ -42,7 +42,7 @@ describe('`snyk-api-import list:imported <...>`', () => {
            [required] [choices: \\"github\\", \\"github-enterprise\\", \\"bitbucket-cloud\\", \\"gcr\\",
                     \\"docker-hub\\", \\"gitlab\\", \\"azure-repos\\", \\"bitbucket-server\\"] [default:
           [\\"github\\",\\"github-enterprise\\",\\"bitbucket-cloud\\",\\"gcr\\",\\"docker-hub\\",\\"gitlab\\",\\"a
-                                                        zure-repos\\",\\"bitbucket-server\\"]]
+                                                        zure-repos\\",\\"bitbucket-server\\",\\"ecr\\"]]
         "
       `);
     }).on('exit', (code) => {

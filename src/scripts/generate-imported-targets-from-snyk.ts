@@ -78,6 +78,7 @@ export const targetGenerators = {
   [SupportedIntegrationTypesToListSnykTargets.AZURE_REPOS]: projectToTarget,
   [SupportedIntegrationTypesToListSnykTargets.BITBUCKET_SERVER]:
     bitbucketServerProjectToTarget,
+  [SupportedIntegrationTypesToListSnykTargets.ECR]: imageProjectToTarget,
 };
 
 interface SnykOrg {

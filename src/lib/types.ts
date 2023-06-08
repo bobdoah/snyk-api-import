@@ -122,6 +122,7 @@ export enum SupportedIntegrationTypesToListSnykTargets {
   GITLAB = 'gitlab',
   AZURE_REPOS = 'azure-repos',
   BITBUCKET_SERVER = 'bitbucket-server',
+  ECR = 'ecr',
 }
 
 export interface CommandResult {
